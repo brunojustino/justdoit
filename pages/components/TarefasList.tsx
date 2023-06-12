@@ -59,8 +59,6 @@ const TarefasList: NextPage<Props> = ({
     }
   };
 
-  console.log(Projetos);
-
   if (Projetos === undefined) {
     return <h1 className="text-white text-2xl mb-2"> Carregando</h1>;
   } else {
